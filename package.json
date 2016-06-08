@@ -1,0 +1,30 @@
+{
+  "name": "sign-payload",
+  "version": "1.0.0",
+  "description": "sha256 sign payload with secret. used in webhooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/sign-payload.git"
+  },
+  "keywords": [
+    "sign",
+    "api",
+    "hooks",
+    "payload",
+    "hmac",
+    "sha256"
+  ],
+  "author": "Ryan Day <ryan@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/sign-payload/issues"
+  },
+  "homepage": "https://github.com/npm/sign-payload#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
